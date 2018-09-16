@@ -65,11 +65,27 @@
         android:text="delete" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextNoticeNum"
         android:layout_width="257dp"
-        android:layout_height="95dp"
+        android:layout_height="24dp"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView"
-        android:layout_marginBottom="22dp" />
+        android:layout_marginBottom="113dp" />
+
+    <EditText
+        android:id="@+id/editTextNoticeTItle"
+        android:layout_width="257dp"
+        android:layout_height="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="68dp" />
+
+    <EditText
+        android:id="@+id/editTextNoticeContent"
+        android:layout_width="257dp"
+        android:layout_height="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="21dp" />
 
 </RelativeLayout>
